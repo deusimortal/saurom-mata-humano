@@ -65,7 +65,7 @@ function draw() {
     nazgul = createSprite(saurom.x+75,saurom.y-30,15,15);
     nazgul.velocityX = 20;
     nazgul.setCollider("rectangle",0,0,16,16);
-    nazgul.lifetime = 401
+    nazgul.lifetime = 40
     nazgul.depth = guerra.depth;
     nazgul.depth = nazgul.depth+1;
     nazgul.depth = nazgul.depth;
@@ -98,7 +98,7 @@ function criarguerreiros(){
     humanos =createSprite(random(1401,1499),random(500,822),40,40);
     humanos.addImage(humanosimg);
     humanos.scale = 0.4;
-    humanos.lifetime = 401;
+    humanos.lifetime = 201;
     humanos.velocityX = -7;
     humanos.setCollider("rectangle",0,0,300,450);
     humanos.debug = true;

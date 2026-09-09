@@ -25,7 +25,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent("jogo");
   horda = new Group();
   nazguls = new Group();
 

@@ -1,7 +1,24 @@
 html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #0c0a0c;
 }
+
+body {
+  touch-action: none;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#jogo {
+  width: 100%;
+  height: 100%;
+}
+
 canvas {
   display: block;
+  width: 100vw !important;
+  height: 100vh !important;
 }
